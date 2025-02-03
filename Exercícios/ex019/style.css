@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(173, 255, 170);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(71, 138, 82);
+    text-decoration: underline;
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(0, 112, 60);
+    color: rgb(107, 235, 107);
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(94, 42, 42);
+
+}
+
+.estilo{
+background-color: rgb(41, 223, 41);
+
+}
