@@ -21,6 +21,8 @@
             border-collapse: collapse;
             margin: auto;
             background-color: rgb(200, 223, 200);
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
         }
 
         td, th{
@@ -30,19 +32,28 @@
         }
 
         th {
-            background-color: rgb(119, 177, 119);
+            background-color: rgb(53, 78, 53);
+            color: aliceblue;
         }
 
-        .pais {
-            background-color: rgb(207, 126, 95);
-        
+        thead > tr > th {
+                position:sticky;
+                top: -1px;
+                background-color: rgb(53, 78, 53) ;
+
         }
 
         caption {
             text-align: center;
-            background-color: gray;
+            background-color: rgb(110, 76, 45);
             font-size: 30px;
+            color: #fff;
             padding: 20px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(102, 170, 102);
+
         }
     </style>
 </head>
@@ -150,6 +161,5 @@
             <td>Euro</td>
         </tr>
     </table>
-
 </body>
 </html>
