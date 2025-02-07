@@ -6,9 +6,11 @@
     <title>Tabelas</title>
     <style>
         body {
+            
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
-            
+            background-image: linear-gradient(to bottom, rgb(255, 131, 131), rgb(102, 42, 42));
+            background-attachment: fixed;
         }
 
         table {
@@ -39,14 +41,14 @@
     <table>
         <caption>Filmes Favoritos</caption>
         <thead>
-            <th>Grupo</th>
-            <th>Nome</th>
-            <th colspan="3">Filmes</th>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nome</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
         </thead>
 
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -68,7 +70,7 @@
             </tr>
 
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendoza</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
