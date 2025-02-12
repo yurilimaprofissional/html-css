@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 003</title>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preencha o formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" autocomplete="username" required>
+        </p>
+        <p>
+            <label for="isexo">Sexo: </label>
+            <input type="text" name="sexo" id="isexo" autocomplete="sex" required>
+        </p>
+
+        <p>
+            <label for="idata">Data de Nascimento: </label>
+            <input type="date" name="data" id="idata" autocomplete="cc-exp-year" required>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+</body>
+</html>
