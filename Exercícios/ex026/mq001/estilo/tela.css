@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: gray;
+    
+}
+
+header h1 {
+    padding: 10px;
+    
+}
+
+menu ul {
+    background-color: rgb(139, 138, 138);
+}
+
+menu li {
+    background-color: rgb(56, 56, 56);
+    display: inline-block;
+    color: rgb(252, 252, 252);
+    padding: 10px;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+article {
+    background-color: lightgray;
+}
