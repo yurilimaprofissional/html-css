@@ -26,7 +26,9 @@ Grandes telas: acima de 1200px */
         background-color: lightskyblue;
     }
 
-    
+    main {
+        width: 50vw;
+    }
 }
 
 
