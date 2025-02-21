@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box</title>
+    <title>Flexible Box simplificação das configurações dos itens</title>
     <style>
         div.conteiner {
             background-color: lightsalmon;
@@ -16,30 +16,38 @@
             background-color: rgb(112, 219, 255);
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
+            
            
 
         }
 
         div#cxa {
 
+            /* flex-grow: 0 ;
             flex-shrink: 1 ;
-            flex-grow: 0 ;
+            flex-basis: 200px; */
 
+            flex: 0 1 200px;
         }
 
         div#cxb {
 
-            flex-shrink: 1 ;
-            flex-grow: 0 ;
+            /* flex-grow: 1 ;
+            flex-shrink: 0 ; 
+            flex-basis: 150px; */
+
+            flex: 1 0 150px;
 
         }
 
 
         div#cxc {
             
+            /* flex-grow: 4 ;
             flex-shrink: 1 ;
-            flex-grow: 0 ;
+            flex-basis: 200px; */
+
+            flex: 4 1 200px ;
 
         }
 
