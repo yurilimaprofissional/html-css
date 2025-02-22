@@ -15,25 +15,57 @@ body {
 header {
     background-color: rgb(141, 69, 35);
     padding: 10px;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
+header > h1 {
     color: white;
-    padding: 10px;
+    padding: 20px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    border: 1px solid black;
+    
 }
 
-header a {
-    color: white;
+header nav {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+}
+
+
+header nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgb(243, 191, 122);
+    border-radius: 5px;
+    color: rgb(141, 69, 35);
+    margin: 5px;
     padding: 10px;
+
 
 }
 
 header a:hover {
-    color: rgb(183, 144, 255);
+    background-color: bisque;
+}
+
+header > nav > a:active {
+    background-color: chocolate;
+    color: white;
+
 }
 
 main {
     margin: auto;
+    margin-top: 10px;
     padding: 20px;
     background-color: white;
     width: 800px;
