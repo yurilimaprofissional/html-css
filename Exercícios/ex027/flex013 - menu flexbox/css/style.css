@@ -14,8 +14,6 @@ body {
 
 header {
     background-color: rgb(141, 69, 35);
-    padding: 10px;
-    height: 120px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -37,6 +35,7 @@ header > nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+  
 
 }
 
@@ -50,6 +49,7 @@ header > nav > a {
     color: rgb(141, 69, 35);
     margin: 5px;
     padding: 10px;
+   align-content: center;
     
 
 
