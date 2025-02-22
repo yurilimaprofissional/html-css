@@ -27,12 +27,12 @@ header > h1 {
     padding: 20px;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 300px;
+    flex-basis: 200px;
     border: 1px solid black;
     
 }
 
-header nav {
+header > nav {
     border: 1px solid black;
     display: flex;
     flex-flow: row wrap;
@@ -41,14 +41,16 @@ header nav {
 }
 
 
-header nav a {
+header > nav > a {
     text-decoration: none;
+    text-align: center;
     font-weight: bolder;
     background-color: rgb(243, 191, 122);
     border-radius: 5px;
     color: rgb(141, 69, 35);
     margin: 5px;
     padding: 10px;
+    
 
 
 }
@@ -71,6 +73,7 @@ main {
     width: 800px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
+    display: ;
 }
 
 main h2 {
