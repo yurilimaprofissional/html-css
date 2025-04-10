@@ -14,7 +14,12 @@ body {
     
 }
 
-p, h1, h2 {
+h1, h2 {
+    margin-bottom: 10px;
+    line-height: 1.2em;
+}
+
+p {
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -27,4 +32,44 @@ header, section.normal {
 section.flex-content {
     padding: 20px;
     background-color: rgb(165, 164, 164);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section > article {
+    border: 2px dashed rebeccapurple;
+
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 400px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
 }
